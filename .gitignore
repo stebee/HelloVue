@@ -106,3 +106,7 @@ typings/
 
 # dotenv environment variables file
 .env
+
+
+# Webpack build
+/build/
