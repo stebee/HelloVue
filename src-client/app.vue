@@ -71,8 +71,7 @@ export default {
     methods: {
         // We dedicate a method to retrieving and setting some data
         fetchEvents: function () {
-            this._store.fetch();
-            this.events = this.events.concat(this._store.get());
+            this._store.fetch(this.events);
         },
 
         // Adds an event to the existing events array
